@@ -1,0 +1,86 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width:960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #FCF8E8;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+h1 {
+  font-family: Uchen, Open Sans;
+  font-size: 25px;
+  font-weight: bold;
+  color: #100F0F;
+
+}
+
+h3 {
+  font-family: Uchen, Open Sans;
+  font-size: 20px;
+  color: #5BB318;
+}
+
+
+
+.card-white {
+  text-align: center;
+  background-color: #FAF9F9;
+  border: #ffd6e0;
+  border-radius: 8px;
+  box-shadow: 1px 3px #E8E9ED;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #FFF1D0;
+}
+
+.card-description {
+  padding: 20px 40px;
+  margin: 0;
+}
+
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #C2714F;
+  color: antiquewhite;
+}
+
+.icons {
+  font-size: 20px;
+  vertical-align:middle;
+  padding: 0px 20px;
+  display: inline-block;
+  list-style: none;
+}
